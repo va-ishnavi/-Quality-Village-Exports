@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quality Village Exports</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .heading {
+            font-family: 'Cormorant Garamond', serif;
+        }
+
+        .hero-bg {
+            background:
+                linear-gradient(rgba(0, 0, 0, 0.75),
+                    rgba(0, 0, 0, 0.65)),
+                url('images/bg.jpg');
+
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .floating {
+            animation: float 4s ease-in-out infinite;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+
+</head>
+
+<body class="bg-[#FAF7F2]">
+
+    <!-- NAVBAR -->
+
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="flex items-center justify-between h-32">
+
+                <!-- LOGO -->
+
+                <div class="flex items-center">
+
+                    <a href="index.html" class="flex items-center">
+
+                        <img src="images/logo01.png" alt="Quality Village Exports Logo"
+                            class="h-28 md:h-32 lg:h-36 w-auto object-contain transition duration-300 hover:scale-105">
+
+                    </a>
+
+                </div>
+
+                <!-- MENU -->
+
+                <div class="hidden lg:flex items-center gap-8">
+
+                    <a href="index.html" class="font-medium hover:text-green-700 transition">
+                        Home
+                    </a>
+
+                    <a href="about.html" class="font-medium hover:text-green-700 transition">
+                        About
+                    </a>
+
+                    <a href="products.html" class="font-medium hover:text-green-700 transition">
+                        Products
+                    </a>
+
+                    <a href="whyus.html" class="font-medium hover:text-green-700 transition">
+                        Why Us
+                    </a>
+
+                    <a href="contact.html" class="font-medium hover:text-green-700 transition">
+                        Contact
+                    </a>
+
+                    <a href="tel:9830623049"
+                        class="bg-green-700 text-white px-6 py-3 rounded-full hover:bg-green-800 transition duration-300">
+                        Get Quote
+                    </a>
+
+                </div>
+
+                <!-- MOBILE ICON -->
+
+                <div class="lg:hidden">
+
+                    <button>
+                        <i class="fa-solid fa-bars text-2xl text-green-800"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- HERO SECTION -->
+
+    <section class="relative min-h-[95vh] flex items-center justify-center overflow-hidden">
+
+        <!-- Background Image -->
+
+        <div class="absolute inset-0">
+
+            <img src="abt-img/hero-bg.jpg" class="w-full h-full object-cover">
+
+            <!-- Overlay -->
+
+            <div class="absolute inset-0 bg-gradient-to-r from-green-800/90 via-green-900/70 to-black/50"></div>
+
+        </div>
+
+        <!-- Decorative Shapes -->
+
+        <div class="absolute top-20 left-10 w-52 h-52 bg-yellow-400/20 rounded-full blur-3xl"></div>
+
+        <div class="absolute bottom-16 right-10 w-72 h-72 bg-green-500/20 rounded-full blur-3xl"></div>
+
+        <!-- Content -->
+
+        <div class="relative z-10 max-w-7xl mx-auto px-6">
+
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+                <!-- Left -->
+
+                <div>
+
+                    <span
+                        class="inline-block px-6 py-2 rounded-full bg-white/10 backdrop-blur-md text-yellow-300 border border-white/20 tracking-widest">
+
+                        ABOUT QUALITY VILLAGE EXPORTS
+
+                    </span>
+
+                    <h1 class="heading text-5xl md:text-7xl font-bold text-white mt-8 leading-tight">
+
+                        Delivering Freshness
+
+                        <span class="text-yellow-400">
+
+                            Beyond Borders
+
+                        </span>
+
+                    </h1>
+
+                    <p class="text-gray-200 text-lg mt-8 leading-8 max-w-xl">
+
+                        We specialize in exporting premium-quality onions,
+                        potatoes, and fresh vegetables sourced directly
+                        from trusted Indian farms with uncompromising
+                        quality standards.
+
+                    </p>
+
+                    <!-- Buttons -->
+
+                    <div class="flex flex-wrap gap-5 mt-10">
+
+                        <a href="products.html"
+                            class="px-8 py-4 bg-yellow-500 rounded-full text-black font-semibold hover:bg-yellow-400 hover:scale-105 transition duration-300">
+
+                            Explore Products
+
+                        </a>
+
+                        <a href="contact.html"
+                            class="px-8 py-4 border-2 border-white text-white rounded-full hover:bg-white hover:text-green-800 transition">
+
+                            Contact Us
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- Right Cards -->
+
+                <div class="hidden lg:block relative">
+
+                    <div class="grid grid-cols-2 gap-6">
+
+                        <!-- Card -->
+
+                        <div
+                            class="bg-white/10 backdrop-blur-xl rounded-[30px] p-8 border border-white/20 hover:-translate-y-3 transition duration-500">
+
+                            <h2 class="text-5xl font-bold text-yellow-400">
+
+                                100%
+
+                            </h2>
+
+                            <p class="text-white mt-4">
+
+                                Quality Assured
+
+                            </p>
+
+                        </div>
+
+                        <div
+                            class="bg-white/10 backdrop-blur-xl rounded-[30px] p-8 mt-16 border border-white/20 hover:-translate-y-3 transition duration-500">
+
+                            <h2 class="text-5xl font-bold text-yellow-400">
+
+                                7+
+
+                            </h2>
+
+                            <p class="text-white mt-4">
+
+                                Product Varieties
+
+                            </p>
+
+                        </div>
+
+                        <div
+                            class="bg-white/10 backdrop-blur-xl rounded-[30px] p-8 border border-white/20 hover:-translate-y-3 transition duration-500">
+
+                            <h2 class="text-5xl font-bold text-yellow-400">
+
+                                Fresh
+
+                            </h2>
+
+                            <p class="text-white mt-4">
+
+                                Farm Direct Supply
+
+                            </p>
+
+                        </div>
+
+                        <div
+                            class="bg-white/10 backdrop-blur-xl rounded-[30px] p-8 mt-16 border border-white/20 hover:-translate-y-3 transition duration-500">
+
+                            <h2 class="text-5xl font-bold text-yellow-400">
+
+                                24/7
+
+                            </h2>
+
+                            <p class="text-white mt-4">
+
+                                Customer Support
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- OUR STORY SECTION -->
+
+    <section class="py-24 bg-[#FAF7F2] overflow-hidden">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="grid lg:grid-cols-2 gap-20 items-center">
+
+                <!-- Images -->
+
+                <div class="relative">
+
+                    <!-- Main Image -->
+
+                    <div class="overflow-hidden rounded-[35px] shadow-2xl group">
+
+                        <img src="abt-img/main-img.jpg" alt="Our Story"
+                            class="w-full h-[620px] object-cover group-hover:scale-110 transition duration-700">
+
+                    </div>
+
+                    <!-- Small Floating Image -->
+
+                    <div
+                        class="hidden md:block absolute -bottom-10 -left-10 overflow-hidden rounded-3xl shadow-2xl border-8 border-white">
+
+                        <img src="abt-img/small-img.jpg"
+                            class="w-60 h-60 object-cover hover:scale-110 transition duration-700">
+
+                    </div>
+
+                    <!-- Experience Card -->
+
+                    <div
+                        class="absolute top-10 -right-5 bg-green-700 text-white rounded-3xl px-8 py-6 shadow-2xl hover:scale-105 transition duration-300">
+
+                        <h3 class="text-4xl font-bold">Premium</h3>
+
+                        <p class="mt-2">
+                            Export Quality
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Content -->
+
+                <div>
+
+                    <span class="inline-block bg-green-100 text-green-700 px-6 py-2 rounded-full font-semibold">
+
+                        OUR STORY
+
+                    </span>
+
+                    <h2 class="heading text-5xl md:text-6xl font-bold text-gray-800 mt-8 leading-tight">
+
+                        From Indian Farms
+                        <span class="text-green-700">
+                            To Global Tables
+                        </span>
+
+                    </h2>
+
+                    <p class="text-gray-600 text-lg leading-8 mt-8">
+
+                        Quality Village Exports is dedicated to delivering farm-fresh onions,
+                        potatoes, and vegetables to customers around the world. We work
+                        closely with experienced farmers to ensure every product is harvested
+                        at the right time and handled with care.
+
+                    </p>
+
+                    <p class="text-gray-600 text-lg leading-8 mt-6">
+
+                        Every shipment is carefully sorted, graded, packed, and inspected
+                        to maintain freshness, quality, and international export standards.
+                        Our focus is to build long-term partnerships through reliable service
+                        and premium agricultural products.
+
+                    </p>
+
+                    <!-- Features -->
+
+                    <div class="grid sm:grid-cols-2 gap-6 mt-10">
+
+                        <div class="flex items-start gap-4">
+
+                            <div class="w-14 h-14 rounded-2xl bg-green-100 flex items-center justify-center text-2xl">
+                                🌱
+                            </div>
+
+                            <div>
+
+                                <h4 class="font-bold text-xl">
+                                    Farm Direct
+                                </h4>
+
+                                <p class="text-gray-600 mt-2">
+                                    Fresh sourcing from trusted growers.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="flex items-start gap-4">
+
+                            <div class="w-14 h-14 rounded-2xl bg-yellow-100 flex items-center justify-center text-2xl">
+                                🧅
+                            </div>
+
+                            <div>
+
+                                <h4 class="font-bold text-xl">
+                                    Premium Produce
+                                </h4>
+
+                                <p class="text-gray-600 mt-2">
+                                    Carefully selected export-grade products.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="flex items-start gap-4">
+
+                            <div class="w-14 h-14 rounded-2xl bg-purple-100 flex items-center justify-center text-2xl">
+                                📦
+                            </div>
+
+                            <div>
+
+                                <h4 class="font-bold text-xl">
+                                    Safe Packaging
+                                </h4>
+
+                                <p class="text-gray-600 mt-2">
+                                    Hygienic and secure export packaging.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="flex items-start gap-4">
+
+                            <div class="w-14 h-14 rounded-2xl bg-green-100 flex items-center justify-center text-2xl">
+                                🌍
+                            </div>
+
+                            <div>
+
+                                <h4 class="font-bold text-xl">
+                                    Worldwide Supply
+                                </h4>
+
+                                <p class="text-gray-600 mt-2">
+                                    Serving importers across global markets.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Button -->
+
+                    <div class="mt-12">
+
+                        <a href="products.html"
+                            class="inline-flex items-center gap-3 bg-green-700 text-white px-8 py-4 rounded-full hover:bg-green-800 hover:scale-105 transition duration-300">
+
+                            Explore Our Products
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- MISSION VISION SECTION -->
+
+    <section class="relative py-28 overflow-hidden">
+
+        <!-- Background -->
+
+        <div class="absolute inset-0">
+
+            <img src="abt-img/mission.jpg" class="w-full h-full object-cover">
+
+            <div class="absolute inset-0 bg-gradient-to-r from-green-950/95 via-green-900/90 to-black/80"></div>
+
+        </div>
+
+        <!-- Decorative Blobs -->
+
+        <div class="absolute top-0 left-0 w-96 h-96 bg-yellow-400/20 rounded-full blur-[120px]"></div>
+
+        <div class="absolute bottom-0 right-0 w-[450px] h-[450px] bg-green-400/20 rounded-full blur-[140px]"></div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-6">
+
+            <!-- Heading -->
+
+            <div class="text-center mb-20">
+
+                <span class="px-6 py-2 rounded-full bg-white/10 border border-white/20 text-yellow-300 tracking-widest">
+
+                    OUR FOUNDATION
+
+                </span>
+
+                <h2 class="heading text-5xl md:text-6xl font-bold text-white mt-8">
+
+                    Driven By
+                    <span class="text-yellow-400">
+                        Quality
+                    </span>
+                    &
+                    <span class="text-green-300">
+                        Trust
+                    </span>
+
+                </h2>
+
+                <p class="text-gray-300 max-w-3xl mx-auto mt-6 text-lg leading-8">
+
+                    Every product we export reflects our commitment to quality,
+                    integrity, sustainability, and long-term customer relationships.
+
+                </p>
+
+            </div>
+
+            <!-- Cards -->
+
+            <div class="grid lg:grid-cols-3 gap-10">
+
+                <!-- Mission -->
+
+                <div
+                    class="group relative overflow-hidden rounded-[35px] bg-white/10 backdrop-blur-xl border border-white/20 p-10 hover:-translate-y-4 transition duration-700">
+
+                    <div
+                        class="absolute inset-0 bg-gradient-to-br from-green-500/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-700">
+                    </div>
+
+                    <div class="relative z-10">
+
+                        <div
+                            class="w-24 h-24 rounded-full bg-green-500 flex items-center justify-center text-5xl shadow-xl mb-8 group-hover:rotate-12 transition duration-700">
+
+                            🎯
+
+                        </div>
+
+                        <h3 class="text-3xl font-bold text-white">
+
+                            Our Mission
+
+                        </h3>
+
+                        <p class="text-gray-300 mt-6 leading-8">
+
+                            To deliver farm-fresh onions, potatoes, and vegetables
+                            that consistently meet international quality standards
+                            while building lasting partnerships with buyers worldwide.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Vision -->
+
+                <div
+                    class="group relative overflow-hidden rounded-[35px] bg-white/10 backdrop-blur-xl border border-white/20 p-10 hover:-translate-y-4 transition duration-700">
+
+                    <div
+                        class="absolute inset-0 bg-gradient-to-br from-yellow-500/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-700">
+                    </div>
+
+                    <div class="relative z-10">
+
+                        <div
+                            class="w-24 h-24 rounded-full bg-yellow-500 flex items-center justify-center text-5xl shadow-xl mb-8 group-hover:rotate-12 transition duration-700">
+
+                            👁️
+
+                        </div>
+
+                        <h3 class="text-3xl font-bold text-white">
+
+                            Our Vision
+
+                        </h3>
+
+                        <p class="text-gray-300 mt-6 leading-8">
+
+                            To become one of India's most trusted exporters of
+                            agricultural produce by delivering excellence,
+                            innovation, and customer satisfaction.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Values -->
+
+                <div
+                    class="group relative overflow-hidden rounded-[35px] bg-white/10 backdrop-blur-xl border border-white/20 p-10 hover:-translate-y-4 transition duration-700">
+
+                    <div
+                        class="absolute inset-0 bg-gradient-to-br from-purple-500/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-700">
+                    </div>
+
+                    <div class="relative z-10">
+
+                        <div
+                            class="w-24 h-24 rounded-full bg-purple-600 flex items-center justify-center text-5xl shadow-xl mb-8 group-hover:rotate-12 transition duration-700">
+
+                            ❤️
+
+                        </div>
+
+                        <h3 class="text-3xl font-bold text-white">
+
+                            Core Values
+
+                        </h3>
+
+                        <ul class="mt-6 space-y-4 text-gray-300">
+
+                            <li>✔ Premium Quality</li>
+
+                            <li>✔ Customer Satisfaction</li>
+
+                            <li>✔ Honest Business Practices</li>
+
+                            <li>✔ Sustainable Agriculture</li>
+
+                            <li>✔ Timely Deliveries</li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Bottom Feature Cards -->
+
+            <div class="grid md:grid-cols-4 gap-6 mt-20">
+
+                <div
+                    class="group bg-white rounded-3xl p-8 text-center hover:bg-green-700 hover:text-white hover:scale-105 transition duration-500 shadow-xl">
+
+                    <div class="text-5xl mb-4 group-hover:scale-125 transition">🌱</div>
+
+                    <h4 class="font-bold text-xl">Fresh Harvest</h4>
+
+                </div>
+
+                <div
+                    class="group bg-white rounded-3xl p-8 text-center hover:bg-yellow-500 hover:text-black hover:scale-105 transition duration-500 shadow-xl">
+
+                    <div class="text-5xl mb-4 group-hover:scale-125 transition">🧅</div>
+
+                    <h4 class="font-bold text-xl">Premium Onions</h4>
+
+                </div>
+
+                <div
+                    class="group bg-white rounded-3xl p-8 text-center hover:bg-purple-700 hover:text-white hover:scale-105 transition duration-500 shadow-xl">
+
+                    <div class="text-5xl mb-4 group-hover:scale-125 transition">🥔</div>
+
+                    <h4 class="font-bold text-xl">Quality Potatoes</h4>
+
+                </div>
+
+                <div
+                    class="group bg-white rounded-3xl p-8 text-center hover:bg-green-800 hover:text-white hover:scale-105 transition duration-500 shadow-xl">
+
+                    <div class="text-5xl mb-4 group-hover:scale-125 transition">🚢</div>
+
+                    <h4 class="font-bold text-xl">Worldwide Export</h4>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- WHY CHOOSE US -->
+
+    <section class="relative py-28 overflow-hidden">
+
+        <!-- Background -->
+
+        <div class="absolute inset-0">
+
+            <img src="abt-img/why-bg.jpg" class="w-full h-full object-cover">
+
+            <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-green-950/75 to-green-900/70"></div>
+
+        </div>
+
+        <!-- Decorative Blur -->
+
+        <div class="absolute top-20 left-20 w-72 h-72 bg-yellow-400/20 rounded-full blur-[120px]"></div>
+
+        <div class="absolute bottom-0 right-0 w-96 h-96 bg-green-400/20 rounded-full blur-[150px]"></div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-6">
+
+            <!-- Heading -->
+
+            <div class="text-center">
+
+                <span
+                    class="px-6 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-yellow-300 uppercase tracking-[4px]">
+
+                    Why Choose Us
+
+                </span>
+
+                <h2 class="heading text-5xl md:text-6xl font-bold text-white mt-8">
+
+                    Trusted Export Partner
+                    <span class="text-yellow-400">
+                        Worldwide
+                    </span>
+
+                </h2>
+
+                <p class="text-gray-300 text-lg max-w-3xl mx-auto mt-6 leading-8">
+
+                    We combine quality sourcing, modern processing, international packaging,
+                    and reliable logistics to deliver fresh agricultural products across global markets.
+
+                </p>
+
+            </div>
+
+            <!-- Cards -->
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-20">
+
+                <!-- Card -->
+
+                <div
+                    class="group bg-white/10 backdrop-blur-xl rounded-[35px] p-8 border border-white/20 hover:bg-green-700 transition duration-500 hover:-translate-y-4">
+
+                    <div class="text-6xl mb-6 group-hover:rotate-12 transition">
+                        🌱
+                    </div>
+
+                    <h3 class="text-2xl font-bold text-white">
+                        Farm Fresh
+                    </h3>
+
+                    <p class="text-gray-300 mt-4 group-hover:text-white">
+                        Direct procurement from trusted farms.
+                    </p>
+
+                </div>
+
+                <!-- Card -->
+
+                <div
+                    class="group bg-white/10 backdrop-blur-xl rounded-[35px] p-8 border border-white/20 hover:bg-yellow-500 transition duration-500 hover:-translate-y-4">
+
+                    <div class="text-6xl mb-6 group-hover:rotate-12 transition">
+                        🧅
+                    </div>
+
+                    <h3 class="text-2xl font-bold text-white group-hover:text-black">
+                        Premium Quality
+                    </h3>
+
+                    <p class="text-gray-300 mt-4 group-hover:text-black">
+                        Carefully selected export-grade onions.
+                    </p>
+
+                </div>
+
+                <!-- Card -->
+
+                <div
+                    class="group bg-white/10 backdrop-blur-xl rounded-[35px] p-8 border border-white/20 hover:bg-purple-700 transition duration-500 hover:-translate-y-4">
+
+                    <div class="text-6xl mb-6 group-hover:rotate-12 transition">
+                        📦
+                    </div>
+
+                    <h3 class="text-2xl font-bold text-white">
+                        Secure Packing
+                    </h3>
+
+                    <p class="text-gray-300 mt-4">
+                        Hygienic export packaging solutions.
+                    </p>
+
+                </div>
+
+                <!-- Card -->
+
+                <div
+                    class="group bg-white/10 backdrop-blur-xl rounded-[35px] p-8 border border-white/20 hover:bg-green-800 transition duration-500 hover:-translate-y-4">
+
+                    <div class="text-6xl mb-6 group-hover:rotate-12 transition">
+                        🚢
+                    </div>
+
+                    <h3 class="text-2xl font-bold text-white">
+                        Global Shipping
+                    </h3>
+
+                    <p class="text-gray-300 mt-4">
+                        Reliable international logistics network.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Bottom Feature -->
+
+            <div class="grid lg:grid-cols-2 gap-16 mt-24 items-center">
+
+                <!-- Image -->
+
+                <div class="group relative">
+
+                    <div class="overflow-hidden rounded-[40px]">
+
+                        <img src="images/pink onion.jpg"
+                            class="w-full h-[500px] object-cover group-hover:scale-110 transition duration-700">
+
+                    </div>
+
+                    <!-- Floating Card -->
+
+                    <div
+                        class="absolute -bottom-8 left-8 bg-white rounded-3xl p-6 shadow-2xl hover:scale-105 transition">
+
+                        <h3 class="text-4xl font-bold text-green-700">
+
+                            100%
+
+                        </h3>
+
+                        <p class="text-gray-600 mt-2">
+
+                            Quality Checked Products
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Content -->
+
+                <div>
+
+                    <h3 class="heading text-5xl font-bold text-white leading-tight">
+
+                        Committed To Delivering
+
+                        <span class="text-yellow-400">
+
+                            Freshness & Trust
+
+                        </span>
+
+                    </h3>
+
+                    <p class="text-gray-300 text-lg mt-8 leading-8">
+
+                        Every shipment undergoes strict quality inspection,
+                        professional grading, hygienic packing, and timely dispatch,
+                        ensuring premium agricultural products reach buyers in excellent condition.
+
+                    </p>
+
+                    <!-- Checklist -->
+
+                    <div class="grid sm:grid-cols-2 gap-6 mt-10">
+
+                        <div class="flex items-center gap-4 text-white">
+
+                            ✔ Export Quality
+
+                        </div>
+
+                        <div class="flex items-center gap-4 text-white">
+
+                            ✔ Fresh Produce
+
+                        </div>
+
+                        <div class="flex items-center gap-4 text-white">
+
+                            ✔ Competitive Pricing
+
+                        </div>
+
+                        <div class="flex items-center gap-4 text-white">
+
+                            ✔ On-Time Delivery
+
+                        </div>
+
+                        <div class="flex items-center gap-4 text-white">
+
+                            ✔ Global Standards
+
+                        </div>
+
+                        <div class="flex items-center gap-4 text-white">
+
+                            ✔ Trusted Supplier
+
+                        </div>
+
+                    </div>
+
+                    <a href="whyus.html"
+                        class="inline-flex mt-12 px-8 py-4 bg-yellow-500 text-black rounded-full font-semibold hover:bg-yellow-400 hover:scale-105 transition">
+
+                        Read More →
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer class="bg-[#0D3B2A] text-white relative overflow-hidden">
+
+        <!-- Top Footer -->
+
+        <div class="max-w-7xl mx-auto px-6 py-20">
+
+            <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-12">
+
+                <!-- Company Info -->
+
+                <div>
+
+                    <h2 class="heading text-4xl font-bold text-yellow-400">
+                        Quality Village Exports
+                    </h2>
+
+                    <p class="text-gray-300 mt-6 leading-relaxed">
+
+                        Exporting premium quality onions, potatoes, and fresh agricultural products from India to global
+                        markets with reliability, freshness, and excellence.
+
+                    </p>
+
+                    <!-- Social Icons -->
+
+                    <div class="flex gap-4 mt-8">
+
+                        <a href="#"
+                            class="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center hover:bg-yellow-500 hover:text-black transition duration-300">
+
+                            <i class="fab fa-facebook-f"></i>
+
+                        </a>
+
+                        <a href="#"
+                            class="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center hover:bg-yellow-500 hover:text-black transition duration-300">
+
+                            <i class="fab fa-instagram"></i>
+
+                        </a>
+
+                        <a href="#"
+                            class="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center hover:bg-yellow-500 hover:text-black transition duration-300">
+
+                            <i class="fab fa-linkedin-in"></i>
+
+                        </a>
+
+                        <a href="#"
+                            class="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center hover:bg-yellow-500 hover:text-black transition duration-300">
+
+                            <i class="fab fa-whatsapp"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- Quick Links -->
+
+                <div>
+
+                    <h3 class="text-2xl font-bold mb-6">
+                        Quick Links
+                    </h3>
+
+                    <ul class="space-y-4">
+
+                        <li>
+                            <a href="index.html" class="hover:text-yellow-400 transition duration-300">
+                                Home
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="about.html" class="hover:text-yellow-400 transition duration-300">
+                                About Us
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="products.html" class="hover:text-yellow-400 transition duration-300">
+                                Products
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="whyus.html" class="hover:text-yellow-400 transition duration-300">
+                                Why Choose Us
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html" class="hover:text-yellow-400 transition duration-300">
+                                Contact Us
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Products -->
+
+                <div>
+
+                    <h3 class="text-2xl font-bold mb-6">
+                        Our Products
+                    </h3>
+
+                    <ul class="space-y-4 text-gray-300">
+
+                        <li class="hover:text-yellow-400 transition">
+                            🧅 Garva Onion
+                        </li>
+
+                        <li class="hover:text-yellow-400 transition">
+                            🧅 Red Onion
+                        </li>
+
+                        <li class="hover:text-yellow-400 transition">
+                            🧅 Pink Onion
+                        </li>
+
+                        <li class="hover:text-yellow-400 transition">
+                            🥔 Chandramukhi Potato
+                        </li>
+
+                        <li class="hover:text-yellow-400 transition">
+                            🥔 Jyoti Potato
+                        </li>
+
+                        <li class="hover:text-yellow-400 transition">
+                            🥔 Pokhraj Potato
+                        </li>
+
+                        <li class="hover:text-yellow-400 transition">
+                            🥔 S1 Potato
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Contact Info -->
+
+                <div>
+
+                    <h3 class="text-2xl font-bold mb-6">
+                        Contact Details
+                    </h3>
+
+                    <div class="space-y-5">
+
+                        <div class="flex gap-4">
+
+                            <i class="fas fa-phone text-yellow-400 mt-1"></i>
+
+                            <div>
+                                <p>
+                                    <a href="tel:+91 9830623049">
+                                        +91 9830623049
+                                    </a><br>
+                                    <a href="tel:9007050534 ">+91 9007050534 </a>
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="flex gap-4">
+
+                            <i class="fas fa-envelope text-yellow-400 mt-1"></i>
+
+                            <div>
+                                <p>
+                                    <a href="email:qualityvillageexports@gmail.com">
+                                        qualityvillageexports@gmail.com
+                                    </a>
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="flex gap-4">
+
+                            <i class="fas fa-location-dot text-yellow-400 mt-1"></i>
+
+                            <div>
+                                <p>
+                                    19, Kai Pukur Lane,<br>
+                                    Shibpur, Howrah - 711102,<br>
+                                    West Bengal, India
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="flex gap-4">
+
+                            <i class="fas fa-file-invoice text-yellow-400 mt-1"></i>
+
+                            <div>
+                                <p>
+                                    GSTIN:<br>
+                                    19AABFQ4214B1ZQ
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Bottom Footer -->
+
+        <div class="border-t border-white/10">
+
+            <div class="max-w-7xl mx-auto px-6 py-6">
+
+                <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+
+                    <p class="text-gray-400 text-center md:text-left">
+                        © 2026 Quality Village Exports. All Rights Reserved.
+                    </p>
+
+                    <p class="text-gray-400 text-center md:text-right">
+                        Delivering Freshness Beyond Borders 🌍
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
